@@ -1,0 +1,23 @@
+[package]
+name = "testaso"
+version = "0.1.0"
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/enarx/testaso"
+repository = "https://github.com/enarx/testaso"
+description = "Test alignment, size and offset for structs."
+authors = ["The Enarx Project Developers and memoffset Developers"]
+keywords = ["mem", "offset", "offset_of", "offsetof", "ffi"]
+categories = ["no-std"]
+exclude = [ ".gitignore", ".github/*" ]
+
+[badges]
+# See https://doc.rust-lang.org/cargo/reference/manifest.html#the-badges-section
+github = { repository = "enarx/testaso", workflow = "test" }
+#github = { repository = "enarx/testaso", workflow = "lint" }
+maintenance = { status = "actively-developed" }
+is-it-maintained-issue-resolution = { repository = "enarx/testaso" }
+is-it-maintained-open-issues = { repository = "enarx/testaso" }
+
+[dependencies]
