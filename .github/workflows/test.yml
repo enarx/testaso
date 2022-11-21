@@ -20,7 +20,7 @@ jobs:
         toolchain:
           - nightly
           - stable
-          - 1.51.0
+          - 1.56.0
         profile:
           - name: debug
           - name: release
